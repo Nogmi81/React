@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.modo_claro {
+  background-color: #fff;
+  color: #000;
+}
+
+.modo_escuro {
+  background-color: hsl(0, 3%, 14%);
+  color: #fff;
+}
+
+.header_container {
+  width: 100%;
+  max-height: 10vh;
+  padding: 0 20px;
+  display: flex;
+}
+
+.header_container div {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .header_container div img{
+  width: 100px;
+  height: 100px;
+} */
+
+.logo{
+  width: 120px;
+  height: 120px;
+} 
+
+.modo_escuro .header_container div img{
+  filter: invert(1) brightness(2);
+}
+
+.header_container button {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  background-color: transparent;
+  border: 2px solid #B2987D;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.modo_escuro .header_container button {
+  color: #fff;
+}
+
+.main_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.secao_banner {
+  height: 30vh;
+  display: flex;
+}
+
+.secao_banner img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.secao_texto {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao_texto div{
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.secao_texto div h1 {
+  font-size: 40px;
+}
+
+.secao_texto div p:first-of-type {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.assinatura {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 500;
+  font-size: 50px;
+  color: #B2987D;
+}
+
+@media (max-width: 525px) {
+  .secao_texto h1 {
+    font-size: 30px;
+  }
+
+  .assinatura {
+    font-size: 40px;
+  }
+}
