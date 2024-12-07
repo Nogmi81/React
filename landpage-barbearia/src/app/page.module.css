@@ -12,7 +12,7 @@
 
 .header_container {
   width: 100%;
-  max-height: 10vh;
+  max-height: 12vh;
   padding: 0 20px;
   display: flex;
 }
@@ -105,9 +105,16 @@
   color: #B2987D;
 }
 
-@media (max-width: 525px) {
+@media (min-width: 375px) and (max-width:600px) {
+  .logo{
+    width: 100px;
+    height: 100px;
+  }
+  
   .secao_texto h1 {
     font-size: 30px;
+    margin-top: 85px;
+    /* color: #fff; */
   }
 
   .assinatura {
