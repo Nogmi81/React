@@ -105,7 +105,7 @@
   color: #B2987D;
 }
 
-@media (min-width: 375px) and (max-width:600px) {
+@media (min-width: 375px) and (max-width:650px) {
   .logo{
     width: 100px;
     height: 100px;
