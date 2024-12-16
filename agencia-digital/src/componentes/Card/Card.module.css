@@ -1,0 +1,51 @@
+.card_modo_claro {
+  flex: 1 1 300px;
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+  border: 1px solid #edecec;
+}
+
+.card_modo_escuro {
+  flex: 1 1 300px;
+  padding: 70px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: pointer;
+  border: 1px solid #ffffff0d;
+}
+
+.card_modo_claro:hover,
+.card_modo_escuro:hover {
+  background-color: #feb633;
+  color: black !important;
+  transition: all 1s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.container h3 {
+  font-size: 24px;
+}
+
+.card_modo_escuro h3 {
+  color: #fff;
+}
+
+.container small {
+  font-style: italic;
+}
+
+.card_modo_claro p,
+.card_modo_escuro p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}

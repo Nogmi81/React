@@ -1,0 +1,53 @@
+.topo_modo_claro {
+  width: 100%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  background-color: #fff;
+}
+
+.topo_modo_escuro {
+  width: 100%;
+  height: 10vh;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+  background-color: #252525;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.topo_modo_claro button,
+.topo_modo_escuro button {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+
+.btn_modo_claro {
+  background-color: #fff;
+  border-radius: 25px;
+  border: 2px solid #747272;
+}
+
+.btn_modo_escuro {
+  background-color: #252525;
+  border-radius: 25px;
+  border: 2px solid #fff;
+}
+
+.logo {
+  max-height: 5vh;
+}
+
+.iconesBtn {
+  width: 25px;
+  height: 25px;
+}
