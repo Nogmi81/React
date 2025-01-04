@@ -12,7 +12,7 @@ export default function CampoDeBusca({ textoBuscaDigitado, handleBusca }) {
           type="text"
           value={textoBuscaDigitado}
           onChange={(event) => handleBusca(event.target.value)}
-          placeholder="Pesquise um dos pratos do nosso cardápio"
+          placeholder="Pesquise um prato do cardápio"
           size="50"
         />
       </div>
