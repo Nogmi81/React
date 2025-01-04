@@ -5,4 +5,4 @@ Projetos desenvolvidos utilizando React/Next.js
 * Barber Shop: https://landpage-barbearia-rose.vercel.app/
 * Clínica Odontologica: https://clinica-odontologica-react-phi.vercel.app/
 * Agência Marketing: https://agencia-digital-delta.vercel.app/
-
+* Cardápio: https://cardapio-restaurante-smoky.vercel.app/
