@@ -33,15 +33,9 @@
 @media (max-width: 550px) {
   .container {
     max-width: 90vw;
-    background-color: black;
   }
 
   .campoBusca{
-    max-width: 85%;
-    background-color: black;
+    max-width: 95%;
   }  
-
-  .campoBusca input{
-    max-width: 85%;
-  }
 }
