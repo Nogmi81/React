@@ -38,13 +38,10 @@
 
   .campoBusca{
     max-width: 85%;
-    /* display: none; */
     background-color: black;
   }  
 
   .campoBusca input{
     max-width: 85%;
-    background-color: black;
   }
-   
 }
