@@ -1,6 +1,4 @@
 import estilos from './Rodape.module.css';
-import Image from 'next/image';
-// import QrCode from '../../../../public/QrCode.png'
 import Link from "next/link";
 
 export default function Rodape(props) {
