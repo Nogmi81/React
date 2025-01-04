@@ -1,5 +1,5 @@
 .container {
-  /* max-width: 1024px; */
+  max-width: 1024px;
   border: 2px solid goldenrod;
   border-radius: 25px;
   display: flex;
@@ -12,19 +12,28 @@
   padding: 8px;
 }
 
-.campoBusca{
-  /* width: 90%; */
+.campoBusca{  
   padding: 10px;
   font-size: 18px;
   /* background-color: beige; */
 }
 
 .campoBusca input{
+  /* max-width: 90%; */
   border: none;
   outline: none;
   color: goldenrod;
+  /* background-color: beige; */
 }
 
 .campoBusca input::placeholder {
   text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+  .container {
+    max-width: 90vw;
+    /* background-color: black; */
+  }
+   
 }
