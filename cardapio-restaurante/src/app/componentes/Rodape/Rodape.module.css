@@ -1,0 +1,29 @@
+.rodape {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* .paragrafo {
+  max-width: 600px;
+  padding: 0px 20px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #8a8fa3;
+  text-align: center;
+} */
+
+.copyright {
+  width: 100%;
+  font-weight: 600;
+  color: #8a8fa3;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.copyright a {
+  color: #fcc520;
+  text-decoration: none;
+}
