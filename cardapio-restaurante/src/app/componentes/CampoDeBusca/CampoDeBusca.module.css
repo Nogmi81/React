@@ -36,6 +36,10 @@
   }
 
   .campoBusca{
-    max-width: 95%;
+    max-width: 85%;
   }  
+
+  .campoBusca input{
+    max-width: 85%;
+  }
 }
