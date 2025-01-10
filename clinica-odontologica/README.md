@@ -1,3 +1,11 @@
+Projeto realizado com React.js / Next.js
+
+Link: https://clinica-odontologica-react-phi.vercel.app/
+
+
+![image](https://github.com/user-attachments/assets/d8ecba15-e906-4e7f-b072-2d180939299b)
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
