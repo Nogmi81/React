@@ -4,7 +4,8 @@ Com o uso de React e JavaScript + CSS esse projeto alterna de entre o modo dark 
 
 Link: https://agencia-digital-delta.vercel.app/
 
-![agencia-digital](https://github.com/user-attachments/assets/ea741846-d3cf-4008-9cb0-f5cd016fc64a)
+![image](https://github.com/user-attachments/assets/84f886b7-0ce5-4266-8298-2ad216a82e31)
+
 
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
