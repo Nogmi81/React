@@ -1,3 +1,14 @@
+Projeto realizado com React.js / Next.js
+
+Com o uso de React e JavaScript + CSS esse projeto alterna de entre o modo dark (escuro) e light (claro) através de um botão ![image](https://github.com/user-attachments/assets/f2c743ad-2db2-4d8f-a0a2-85b14a5aa20b)
+
+
+Link: https://landpage-barbearia-rose.vercel.app/
+
+![image](https://github.com/user-attachments/assets/90274cd5-f82f-4cd3-afdc-183e427512ed)
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
